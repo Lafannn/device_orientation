@@ -3,15 +3,15 @@
 # Run `pod lib lint device_orientation.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'device_orientation'
+  s.name             = 'device_real_orientation'
   s.version          = '0.0.1'
-  s.summary          = 'A new flutter plugin project.'
+  s.summary          = 'Plugin for get device orientation from sensors'
   s.description      = <<-DESC
-A new flutter plugin project.
+Flutter real device orientation
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/Lafannn/device_orientation'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Oleh Svidin' => 'oleggog2010@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
