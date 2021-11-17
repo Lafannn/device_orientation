@@ -28,7 +28,6 @@ class OrientationsStreamHandler : NSObject, FlutterStreamHandler{
     }
     
     @objc func rotated(){
-        UIDeviceOrientation
         let newValue = UIDevice.current.orientation.rawValue
         if(newValue < 5 && newValue != lastValue){
             lastValue = newValue

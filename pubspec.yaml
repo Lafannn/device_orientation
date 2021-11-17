@@ -1,6 +1,6 @@
 name: device_real_orientation
 description: Plugin for check deviceorientation from sensors
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/Lafannn/device_orientation
 
 environment:
