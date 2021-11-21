@@ -9,3 +9,7 @@
 ## 0.0.3
 
 * iOS plugin renamed from device_orientation to device_real_orientation
+
+## 0.0.4
+
+* Fixed bug with subscription to orientations
